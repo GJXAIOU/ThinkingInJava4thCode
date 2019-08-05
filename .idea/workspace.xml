@@ -3,7 +3,81 @@
   <component name="ChangeListManager">
     <list default="true" id="861b2942-23ae-4d8b-acd3-49a6f1fbb163" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polymorphism/PolyConstructors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polymorphism/PolyConstructors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/Copyright.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/DEclipse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/DogsAndRobots.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/Eclipse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/Face0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/Face1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/Face2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/Face3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/Face4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/FindBugsExcluder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/FindBugsFilter.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/InstantiateGenericType.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/JavaLint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/Mixins.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/OutputGenerator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/OutputVerifier.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/RedundantImportDetector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/Templates.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/access/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/annotations/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/arrays/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/bangbean/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/chapterOrder.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/concurrency/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/containers/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/control/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/enumerated/VendingMachineInput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/enumerated/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/exceptions/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/flex/build-command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/flex/helloflex1.mxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/flex/helloflex2.mxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/flex/songScript.as" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/flex/songStyles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/flex/songs.mxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/frogbean/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/generics/DogsAndRobots.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/generics/InstantiateGenericType.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/generics/Mixins.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/generics/Templates.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/generics/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/gui/Face0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/gui/Face1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/gui/Face2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/gui/Face3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/gui/Face4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/gui/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/gui/flex/build-command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/gui/flex/helloflex1.mxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/gui/flex/helloflex2.mxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/gui/flex/songScript.as" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/gui/flex/songStyles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/gui/flex/songs.mxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/gui/jnlp/filechooser.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/gui/jnlp/filechooser.jnlp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/gui/jnlp/mindview.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/holding/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/initialization/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/innerclasses/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/interfaces/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/io/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/jnlp/filechooser.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/jnlp/filechooser.jnlp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/jnlp/mindview.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/net/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/object/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/operators/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/polymorphism/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/reusing/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/strings/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/swt/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/typeinfo/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava4Code/xml/build.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +91,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/polymorphism/PolyConstructors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+            <state relative-caret-position="406">
+              <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
               <folding>
                 <element signature="e#0#778#0" expanded="true" />
                 <element signature="e#182#183#0" expanded="true" />
@@ -31,6 +105,15 @@
                 <element signature="e#620#621#0" expanded="true" />
                 <element signature="e#647#648#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava4Code.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1176">
+              <caret line="56" column="31" lean-forward="true" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -76,19 +159,6 @@
             </path>
             <path>
               <item name="ThinkingInJava4Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava4Code" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="polymorphism" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ThinkingInJava4Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava4Code" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="polymorphism" type="462c0819:PsiDirectoryNode" />
-              <item name="PolyConstructors.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="ThinkingInJava4Code" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -102,13 +172,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../JARs/ThinkingInJava4/typeinfo-pets.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -159,7 +229,7 @@
       <workItem from="1564989690195" duration="927000" />
       <workItem from="1564990654472" duration="1291000" />
       <workItem from="1564991971255" duration="68000" />
-      <workItem from="1564992120356" duration="158000" />
+      <workItem from="1564992120356" duration="1429000" />
     </task>
     <task id="LOCAL-00001" summary="源代码没改动版本">
       <created>1564990126089</created>
@@ -189,15 +259,21 @@
       <option name="project" value="LOCAL" />
       <updated>1564992021856</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Merge branch 'master' of https://github.com/GJXAIOU/ThinkingInJava4thCode&#10;&#10;# Conflicts:&#10;#&#9;ThinkingInJava4Code.iml">
+      <created>1564992306120</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564992306120</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4066000" />
+    <option name="totallyTimeSpent" value="5337000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26877683" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -218,7 +294,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32930845" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.32930845" />
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="13" visible="true" weight="0.32930845" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -259,8 +335,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/polymorphism/PolyConstructors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        <state relative-caret-position="406">
+          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
           <folding>
             <element signature="e#0#778#0" expanded="true" />
             <element signature="e#182#183#0" expanded="true" />
@@ -270,6 +346,13 @@
             <element signature="e#620#621#0" expanded="true" />
             <element signature="e#647#648#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava4Code.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="56" column="31" lean-forward="true" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -290,6 +373,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -312,6 +396,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
