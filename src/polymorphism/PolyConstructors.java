@@ -4,7 +4,9 @@
 import static net.mindview.util.Print.*;
 
 class Glyph {
-  void draw() { print("Glyph.draw()"); }
+  void draw() {
+    print("Glyph.draw()");
+  }
   Glyph() {
     print("Glyph() before draw()");
     draw();
@@ -18,6 +20,8 @@ class RoundGlyph extends Glyph {
     radius = r;
     print("RoundGlyph.RoundGlyph(), radius = " + radius);
   }
+
+  @Override
   void draw() {
     print("RoundGlyph.draw(), radius = " + radius);
   }

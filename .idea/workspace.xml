@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="861b2942-23ae-4d8b-acd3-49a6f1fbb163" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava4Code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava4Code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/polymorphism/PolyConstructors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polymorphism/PolyConstructors.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,30 +16,21 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/polymorphism/ReferenceCounting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/polymorphism/PolyConstructors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/exceptions/CleanupIdiom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="819">
-              <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+            <state relative-caret-position="630">
+              <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#778#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,16 +61,48 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ThinkingInJava4Code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava4Code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThinkingInJava4Code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava4Code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThinkingInJava4Code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava4Code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="polymorphism" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThinkingInJava4Code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava4Code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="polymorphism" type="462c0819:PsiDirectoryNode" />
+              <item name="PolyConstructors.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="ThinkingInJava4Code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../JARs/ThinkingInJava4/typeinfo-pets.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -137,6 +158,8 @@
       <workItem from="1564989569447" duration="63000" />
       <workItem from="1564989690195" duration="927000" />
       <workItem from="1564990654472" duration="1291000" />
+      <workItem from="1564991971255" duration="68000" />
+      <workItem from="1564992120356" duration="158000" />
     </task>
     <task id="LOCAL-00001" summary="源代码没改动版本">
       <created>1564990126089</created>
@@ -159,16 +182,24 @@
       <option name="project" value="LOCAL" />
       <updated>1564991325867</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Merge branch 'master' of https://github.com/GJXAIOU/ThinkingInJava4thCode&#10;&#10;# Conflicts:&#10;#&#9;ThinkingInJava4Code.iml">
+      <created>1564992021856</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564992021856</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3840000" />
+    <option name="totallyTimeSpent" value="4066000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26126608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26877683" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -206,11 +237,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="源代码没改动版本" />
     <MESSAGE value="源代码没改动版本的" />
-    <option name="LAST_COMMIT_MESSAGE" value="源代码没改动版本的" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/GJXAIOU/ThinkingInJava4thCode&#10;&#10;# Conflicts:&#10;#&#9;ThinkingInJava4Code.iml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/GJXAIOU/ThinkingInJava4thCode&#10;&#10;# Conflicts:&#10;#&#9;ThinkingInJava4Code.iml" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/concurrency/BankTellerSimulation.java" />
     <entry file="file://$PROJECT_DIR$/src/swt/SineWave.java" />
+    <entry file="file://$PROJECT_DIR$/src/exceptions/CleanupIdiom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/polymorphism/ReferenceCounting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
@@ -220,15 +259,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/polymorphism/PolyConstructors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exceptions/CleanupIdiom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+        <state relative-caret-position="630">
+          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#778#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -287,7 +328,18 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
