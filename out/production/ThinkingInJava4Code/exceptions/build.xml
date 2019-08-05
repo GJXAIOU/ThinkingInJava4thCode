@@ -3,10 +3,10 @@
 <project
  basedir="."
  default="run"
- name="Thinking in Java, 4th Edition by Bruce Eckel (chapter: strings)">
+ name="Thinking in Java, 4th Edition by Bruce Eckel (chapter: exceptions)">
 
   <description>
-    build.xml for the source code for the strings chapter of
+    build.xml for the source code for the exceptions chapter of
     Thinking in Java, 4th Edition by Bruce Eckel
     Source code available at http://www.MindView.net
     See copyright notice in CopyRight.txt
@@ -22,15 +22,6 @@
     <equals arg1="1.5" arg2="${ant.java.version}"/>
   </condition>
 
-  <target name="generics_coffee">
-    <javac
-     classpath="${basedir}/.."
-     srcdir="${basedir}/../generics/coffee/">
-      <compilerarg value="-Xmaxerrs"/>
-      <compilerarg value="10"/>
-    </javac>
-  </target>
-
   <target name="net_mindview_util">
     <javac
      classpath="${basedir}/.."
@@ -41,11 +32,11 @@
   </target>
 
   <target
-   depends="generics_coffee,net_mindview_util"
+   depends="net_mindview_util"
    description="Build all classes in this directory"
    name="build">
     <fail message="J2SE5 required" unless="version1.5"/>
-    <echo message="Building 'strings'"/>
+    <echo message="Building 'exceptions'"/>
     <javac
      classpath="${basedir}/.."
      debug="true"
@@ -53,264 +44,222 @@
       <compilerarg value="-Xmaxerrs"/>
       <compilerarg value="10"/>
     </javac>
-    <echo message="Build 'strings' succeeded"/>
+    <echo message="Build 'exceptions' succeeded"/>
   </target>
 
-  <target name="ArrayListDisplay">
+  <target name="AlwaysFinally">
     <java
-     classname="ArrayListDisplay"
+     classname="AlwaysFinally"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../exceptions/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="BetterRead">
+  <target name="Cleanup">
     <java
-     classname="BetterRead"
+     classname="Cleanup"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../exceptions/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Concatenation">
+  <target name="CleanupIdiom">
     <java
-     classname="Concatenation"
+     classname="CleanupIdiom"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../exceptions/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Conversion">
+  <target name="DynamicFields">
     <java
-     classname="Conversion"
+     classname="DynamicFields"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../exceptions/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="DatabaseException">
+  <target name="ExceptionMethods">
     <java
-     classname="DatabaseException"
+     classname="ExceptionMethods"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../exceptions/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Finding">
+  <target name="ExceptionSilencer">
     <java
-     classname="Finding"
+     classname="ExceptionSilencer"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../exceptions/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Groups">
+  <target name="ExtraFeatures">
     <java
-     classname="Groups"
+     classname="ExtraFeatures"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../exceptions/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Immutable">
+  <target name="FinallyWorks">
     <java
-     classname="Immutable"
+     classname="FinallyWorks"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../exceptions/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="InfiniteRecursion">
+  <target name="FullConstructors">
     <java
-     classname="InfiniteRecursion"
+     classname="FullConstructors"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../exceptions/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="IntegerMatch">
+  <target name="Human">
     <java
-     classname="IntegerMatch"
+     classname="Human"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../exceptions/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="JGrep">
+  <target name="InheritingExceptions">
     <java
-     classname="JGrep"
+     classname="InheritingExceptions"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
-     failonerror="true"
-     fork="true">
-      <arg line='JGrep.java "\\b[Ssct]\\w+"'/>
-
-    </java>
-  </target>
-
-  <target name="Receipt">
-    <java
-     classname="Receipt"
-     classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../exceptions/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="ReFlags">
+  <target name="LoggingExceptions">
     <java
-     classname="ReFlags"
+     classname="LoggingExceptions"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../exceptions/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Replacing">
+  <target name="LoggingExceptions2">
     <java
-     classname="Replacing"
+     classname="LoggingExceptions2"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../exceptions/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="ReplacingStringTokenizer">
+  <target name="LostMessage">
     <java
-     classname="ReplacingStringTokenizer"
+     classname="LostMessage"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../exceptions/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Resetting">
+  <target name="MainException">
     <java
-     classname="Resetting"
+     classname="MainException"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../exceptions/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Rudolph">
+  <target name="MultipleReturns">
     <java
-     classname="Rudolph"
+     classname="MultipleReturns"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../exceptions/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="ScannerDelimiter">
+  <target name="NeverCaught">
     <java
-     classname="ScannerDelimiter"
+     classname="NeverCaught"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../exceptions/"
+     failonerror="false"
+     fork="true"/>
+    <echo message="* Exception was expected *"/>
+  </target>
+
+  <target name="OnOffSwitch">
+    <java
+     classname="OnOffSwitch"
+     classpath="${java.class.path};${basedir};${basedir}/.."
+     dir="../exceptions/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="SimpleFormat">
+  <target name="Rethrowing">
     <java
-     classname="SimpleFormat"
+     classname="Rethrowing"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../exceptions/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="SimpleRead">
+  <target name="RethrowNew">
     <java
-     classname="SimpleRead"
+     classname="RethrowNew"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../exceptions/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="SplitDemo">
+  <target name="StormyInning">
     <java
-     classname="SplitDemo"
+     classname="StormyInning"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../exceptions/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Splitting">
+  <target name="TurnOffChecking">
     <java
-     classname="Splitting"
+     classname="TurnOffChecking"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../exceptions/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="StartEnd">
+  <target name="WhoCalled">
     <java
-     classname="StartEnd"
+     classname="WhoCalled"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../exceptions/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="TestRegularExpression">
+  <target name="WithFinally">
     <java
-     classname="TestRegularExpression"
+     classname="WithFinally"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
-     failonerror="true"
-     fork="true">
-      <arg
-       line='abcabcabcdefabc "abc+" "(abc)+" "(abc){2,}" '/>
-
-    </java>
-  </target>
-
-  <target name="TheReplacements">
-    <java
-     classname="TheReplacements"
-     classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
-     failonerror="true"
-     fork="true"/>
-  </target>
-
-  <target name="ThreatAnalyzer">
-    <java
-     classname="ThreatAnalyzer"
-     classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
-     failonerror="true"
-     fork="true"/>
-  </target>
-
-  <target name="Turtle">
-    <java
-     classname="Turtle"
-     classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
-     failonerror="true"
-     fork="true"/>
-  </target>
-
-  <target name="UsingStringBuilder">
-    <java
-     classname="UsingStringBuilder"
-     classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../exceptions/"
      failonerror="true"
      fork="true"/>
   </target>
@@ -320,34 +269,30 @@
    description="Compile and run"
    name="run">
     <touch file="failures"/>
-    <antcall target="ArrayListDisplay"/>
-    <antcall target="BetterRead"/>
-    <antcall target="Concatenation"/>
-    <antcall target="Conversion"/>
-    <antcall target="DatabaseException"/>
-    <antcall target="Finding"/>
-    <antcall target="Groups"/>
-    <antcall target="Immutable"/>
-    <antcall target="IntegerMatch"/>
-    <antcall target="JGrep"/>
-    <antcall target="Receipt"/>
-    <antcall target="ReFlags"/>
-    <antcall target="Replacing"/>
-    <antcall target="ReplacingStringTokenizer"/>
-    <antcall target="Resetting"/>
-    <antcall target="Rudolph"/>
-    <antcall target="ScannerDelimiter"/>
-    <antcall target="SimpleFormat"/>
-    <antcall target="SimpleRead"/>
-    <antcall target="SplitDemo"/>
-    <antcall target="Splitting"/>
-    <antcall target="StartEnd"/>
-    <antcall target="TestRegularExpression"/>
-    <antcall target="TheReplacements"/>
-    <antcall target="ThreatAnalyzer"/>
-    <antcall target="Turtle"/>
-    <antcall target="UsingStringBuilder"/>
-    <echo message="* InfiniteRecursion must be run by hand *"/>
+    <antcall target="AlwaysFinally"/>
+    <antcall target="Cleanup"/>
+    <antcall target="CleanupIdiom"/>
+    <antcall target="DynamicFields"/>
+    <antcall target="ExceptionMethods"/>
+    <antcall target="ExceptionSilencer"/>
+    <antcall target="ExtraFeatures"/>
+    <antcall target="FinallyWorks"/>
+    <antcall target="FullConstructors"/>
+    <antcall target="Human"/>
+    <antcall target="InheritingExceptions"/>
+    <antcall target="LoggingExceptions"/>
+    <antcall target="LoggingExceptions2"/>
+    <antcall target="LostMessage"/>
+    <antcall target="MainException"/>
+    <antcall target="MultipleReturns"/>
+    <antcall target="NeverCaught"/>
+    <antcall target="OnOffSwitch"/>
+    <antcall target="Rethrowing"/>
+    <antcall target="RethrowNew"/>
+    <antcall target="StormyInning"/>
+    <antcall target="TurnOffChecking"/>
+    <antcall target="WhoCalled"/>
+    <antcall target="WithFinally"/>
     <delete file="failures"/>
   </target>
 

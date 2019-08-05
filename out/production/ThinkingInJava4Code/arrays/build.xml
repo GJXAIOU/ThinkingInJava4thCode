@@ -3,10 +3,10 @@
 <project
  basedir="."
  default="run"
- name="Thinking in Java, 4th Edition by Bruce Eckel (chapter: strings)">
+ name="Thinking in Java, 4th Edition by Bruce Eckel (chapter: arrays)">
 
   <description>
-    build.xml for the source code for the strings chapter of
+    build.xml for the source code for the arrays chapter of
     Thinking in Java, 4th Edition by Bruce Eckel
     Source code available at http://www.MindView.net
     See copyright notice in CopyRight.txt
@@ -22,15 +22,6 @@
     <equals arg1="1.5" arg2="${ant.java.version}"/>
   </condition>
 
-  <target name="generics_coffee">
-    <javac
-     classpath="${basedir}/.."
-     srcdir="${basedir}/../generics/coffee/">
-      <compilerarg value="-Xmaxerrs"/>
-      <compilerarg value="10"/>
-    </javac>
-  </target>
-
   <target name="net_mindview_util">
     <javac
      classpath="${basedir}/.."
@@ -41,11 +32,11 @@
   </target>
 
   <target
-   depends="generics_coffee,net_mindview_util"
+   depends="net_mindview_util"
    description="Build all classes in this directory"
    name="build">
     <fail message="J2SE5 required" unless="version1.5"/>
-    <echo message="Building 'strings'"/>
+    <echo message="Building 'arrays'"/>
     <javac
      classpath="${basedir}/.."
      debug="true"
@@ -53,264 +44,239 @@
       <compilerarg value="-Xmaxerrs"/>
       <compilerarg value="10"/>
     </javac>
-    <echo message="Build 'strings' succeeded"/>
+    <echo message="Build 'arrays' succeeded"/>
   </target>
 
-  <target name="ArrayListDisplay">
+  <target name="AlphabeticSearch">
     <java
-     classname="ArrayListDisplay"
+     classname="AlphabeticSearch"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../arrays/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="BetterRead">
+  <target name="ArrayOfGenerics">
     <java
-     classname="BetterRead"
+     classname="ArrayOfGenerics"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../arrays/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Concatenation">
+  <target name="ArrayOptions">
     <java
-     classname="Concatenation"
+     classname="ArrayOptions"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../arrays/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Conversion">
+  <target name="ArraySearching">
     <java
-     classname="Conversion"
+     classname="ArraySearching"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../arrays/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="DatabaseException">
+  <target name="AssemblingMultidimensionalArrays">
     <java
-     classname="DatabaseException"
+     classname="AssemblingMultidimensionalArrays"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../arrays/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Finding">
+  <target name="AutoboxingArrays">
     <java
-     classname="Finding"
+     classname="AutoboxingArrays"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../arrays/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Groups">
+  <target name="ComparatorTest">
     <java
-     classname="Groups"
+     classname="ComparatorTest"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../arrays/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Immutable">
+  <target name="ComparingArrays">
     <java
-     classname="Immutable"
+     classname="ComparingArrays"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../arrays/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="InfiniteRecursion">
+  <target name="CompType">
     <java
-     classname="InfiniteRecursion"
+     classname="CompType"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../arrays/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="IntegerMatch">
+  <target name="ContainerComparison">
     <java
-     classname="IntegerMatch"
+     classname="ContainerComparison"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../arrays/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="JGrep">
+  <target name="CopyingArrays">
     <java
-     classname="JGrep"
+     classname="CopyingArrays"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
-     failonerror="true"
-     fork="true">
-      <arg line='JGrep.java "\\b[Ssct]\\w+"'/>
-
-    </java>
-  </target>
-
-  <target name="Receipt">
-    <java
-     classname="Receipt"
-     classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../arrays/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="ReFlags">
+  <target name="FillingArrays">
     <java
-     classname="ReFlags"
+     classname="FillingArrays"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../arrays/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Replacing">
+  <target name="GeneratorsTest">
     <java
-     classname="Replacing"
+     classname="GeneratorsTest"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../arrays/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="ReplacingStringTokenizer">
+  <target name="IceCream">
     <java
-     classname="ReplacingStringTokenizer"
+     classname="IceCream"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../arrays/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Resetting">
+  <target name="MultidimensionalObjectArrays">
     <java
-     classname="Resetting"
+     classname="MultidimensionalObjectArrays"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../arrays/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Rudolph">
+  <target name="MultidimensionalPrimitiveArray">
     <java
-     classname="Rudolph"
+     classname="MultidimensionalPrimitiveArray"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../arrays/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="ScannerDelimiter">
+  <target name="MultiDimWrapperArray">
     <java
-     classname="ScannerDelimiter"
+     classname="MultiDimWrapperArray"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../arrays/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="SimpleFormat">
+  <target name="ParameterizedArrayType">
     <java
-     classname="SimpleFormat"
+     classname="ParameterizedArrayType"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../arrays/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="SimpleRead">
+  <target name="PrimitiveConversionDemonstration">
     <java
-     classname="SimpleRead"
+     classname="PrimitiveConversionDemonstration"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../arrays/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="SplitDemo">
+  <target name="RaggedArray">
     <java
-     classname="SplitDemo"
+     classname="RaggedArray"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../arrays/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Splitting">
+  <target name="RandomGeneratorsTest">
     <java
-     classname="Splitting"
+     classname="RandomGeneratorsTest"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../arrays/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="StartEnd">
+  <target name="Reverse">
     <java
-     classname="StartEnd"
+     classname="Reverse"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../arrays/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="TestRegularExpression">
+  <target name="StringSorting">
     <java
-     classname="TestRegularExpression"
+     classname="StringSorting"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
-     failonerror="true"
-     fork="true">
-      <arg
-       line='abcabcabcdefabc "abc+" "(abc)+" "(abc){2,}" '/>
-
-    </java>
-  </target>
-
-  <target name="TheReplacements">
-    <java
-     classname="TheReplacements"
-     classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../arrays/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="ThreatAnalyzer">
+  <target name="TestArrayGeneration">
     <java
-     classname="ThreatAnalyzer"
+     classname="TestArrayGeneration"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../arrays/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Turtle">
+  <target name="TestGenerated">
     <java
-     classname="Turtle"
+     classname="TestGenerated"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../arrays/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="UsingStringBuilder">
+  <target name="ThreeDWithNew">
     <java
-     classname="UsingStringBuilder"
+     classname="ThreeDWithNew"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../arrays/"
      failonerror="true"
      fork="true"/>
   </target>
@@ -320,34 +286,32 @@
    description="Compile and run"
    name="run">
     <touch file="failures"/>
-    <antcall target="ArrayListDisplay"/>
-    <antcall target="BetterRead"/>
-    <antcall target="Concatenation"/>
-    <antcall target="Conversion"/>
-    <antcall target="DatabaseException"/>
-    <antcall target="Finding"/>
-    <antcall target="Groups"/>
-    <antcall target="Immutable"/>
-    <antcall target="IntegerMatch"/>
-    <antcall target="JGrep"/>
-    <antcall target="Receipt"/>
-    <antcall target="ReFlags"/>
-    <antcall target="Replacing"/>
-    <antcall target="ReplacingStringTokenizer"/>
-    <antcall target="Resetting"/>
-    <antcall target="Rudolph"/>
-    <antcall target="ScannerDelimiter"/>
-    <antcall target="SimpleFormat"/>
-    <antcall target="SimpleRead"/>
-    <antcall target="SplitDemo"/>
-    <antcall target="Splitting"/>
-    <antcall target="StartEnd"/>
-    <antcall target="TestRegularExpression"/>
-    <antcall target="TheReplacements"/>
-    <antcall target="ThreatAnalyzer"/>
-    <antcall target="Turtle"/>
-    <antcall target="UsingStringBuilder"/>
-    <echo message="* InfiniteRecursion must be run by hand *"/>
+    <antcall target="AlphabeticSearch"/>
+    <antcall target="ArrayOfGenerics"/>
+    <antcall target="ArrayOptions"/>
+    <antcall target="ArraySearching"/>
+    <antcall target="AssemblingMultidimensionalArrays"/>
+    <antcall target="AutoboxingArrays"/>
+    <antcall target="ComparatorTest"/>
+    <antcall target="ComparingArrays"/>
+    <antcall target="CompType"/>
+    <antcall target="ContainerComparison"/>
+    <antcall target="CopyingArrays"/>
+    <antcall target="FillingArrays"/>
+    <antcall target="GeneratorsTest"/>
+    <antcall target="IceCream"/>
+    <antcall target="MultidimensionalObjectArrays"/>
+    <antcall target="MultidimensionalPrimitiveArray"/>
+    <antcall target="MultiDimWrapperArray"/>
+    <antcall target="ParameterizedArrayType"/>
+    <antcall target="PrimitiveConversionDemonstration"/>
+    <antcall target="RaggedArray"/>
+    <antcall target="RandomGeneratorsTest"/>
+    <antcall target="Reverse"/>
+    <antcall target="StringSorting"/>
+    <antcall target="TestArrayGeneration"/>
+    <antcall target="TestGenerated"/>
+    <antcall target="ThreeDWithNew"/>
     <delete file="failures"/>
   </target>
 

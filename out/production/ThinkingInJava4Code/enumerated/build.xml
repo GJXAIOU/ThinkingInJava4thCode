@@ -3,10 +3,10 @@
 <project
  basedir="."
  default="run"
- name="Thinking in Java, 4th Edition by Bruce Eckel (chapter: strings)">
+ name="Thinking in Java, 4th Edition by Bruce Eckel (chapter: enumerated)">
 
   <description>
-    build.xml for the source code for the strings chapter of
+    build.xml for the source code for the enumerated chapter of
     Thinking in Java, 4th Edition by Bruce Eckel
     Source code available at http://www.MindView.net
     See copyright notice in CopyRight.txt
@@ -22,15 +22,6 @@
     <equals arg1="1.5" arg2="${ant.java.version}"/>
   </condition>
 
-  <target name="generics_coffee">
-    <javac
-     classpath="${basedir}/.."
-     srcdir="${basedir}/../generics/coffee/">
-      <compilerarg value="-Xmaxerrs"/>
-      <compilerarg value="10"/>
-    </javac>
-  </target>
-
   <target name="net_mindview_util">
     <javac
      classpath="${basedir}/.."
@@ -41,11 +32,11 @@
   </target>
 
   <target
-   depends="generics_coffee,net_mindview_util"
+   depends="net_mindview_util"
    description="Build all classes in this directory"
    name="build">
     <fail message="J2SE5 required" unless="version1.5"/>
-    <echo message="Building 'strings'"/>
+    <echo message="Building 'enumerated'"/>
     <javac
      classpath="${basedir}/.."
      debug="true"
@@ -53,266 +44,268 @@
       <compilerarg value="-Xmaxerrs"/>
       <compilerarg value="10"/>
     </javac>
-    <echo message="Build 'strings' succeeded"/>
+    <echo message="Build 'enumerated' succeeded"/>
   </target>
 
-  <target name="ArrayListDisplay">
+  <target name="BigEnumSet">
     <java
-     classname="ArrayListDisplay"
+     classname="BigEnumSet"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../enumerated/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="BetterRead">
+  <target name="Burrito">
     <java
-     classname="BetterRead"
+     classname="enumerated.Burrito"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../enumerated/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Concatenation">
+  <target name="CarWash">
     <java
-     classname="Concatenation"
+     classname="CarWash"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../enumerated/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Conversion">
+  <target name="ConstantSpecificMethod">
     <java
-     classname="Conversion"
+     classname="ConstantSpecificMethod"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../enumerated/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="DatabaseException">
+  <target name="EnumClass">
     <java
-     classname="DatabaseException"
+     classname="EnumClass"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../enumerated/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Finding">
+  <target name="EnumMaps">
     <java
-     classname="Finding"
+     classname="enumerated.EnumMaps"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../enumerated/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Groups">
+  <target name="EnumSets">
     <java
-     classname="Groups"
+     classname="enumerated.EnumSets"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../enumerated/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Immutable">
+  <target name="NonEnum">
     <java
-     classname="Immutable"
+     classname="NonEnum"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../enumerated/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="InfiniteRecursion">
+  <target name="OverrideConstantSpecific">
     <java
-     classname="InfiniteRecursion"
+     classname="OverrideConstantSpecific"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../enumerated/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="IntegerMatch">
+  <target name="OzWitch">
     <java
-     classname="IntegerMatch"
+     classname="OzWitch"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../enumerated/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="JGrep">
+  <target name="PostOffice">
     <java
-     classname="JGrep"
+     classname="PostOffice"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../enumerated/"
+     failonerror="true"
+     fork="true"/>
+  </target>
+
+  <target name="RandomTest">
+    <java
+     classname="RandomTest"
+     classpath="${java.class.path};${basedir};${basedir}/.."
+     dir="../enumerated/"
+     failonerror="true"
+     fork="true"/>
+  </target>
+
+  <target name="Reflection">
+    <java
+     classname="Reflection"
+     classpath="${java.class.path};${basedir};${basedir}/.."
+     dir="../enumerated/"
+     failonerror="true"
+     fork="true"/>
+  </target>
+
+  <target name="RoShamBo1">
+    <java
+     classname="enumerated.RoShamBo1"
+     classpath="${java.class.path};${basedir};${basedir}/.."
+     dir="../enumerated/"
+     failonerror="true"
+     fork="true"/>
+  </target>
+
+  <target name="RoShamBo2">
+    <java
+     classname="enumerated.RoShamBo2"
+     classpath="${java.class.path};${basedir};${basedir}/.."
+     dir="../enumerated/"
+     failonerror="true"
+     fork="true"/>
+  </target>
+
+  <target name="RoShamBo3">
+    <java
+     classname="enumerated.RoShamBo3"
+     classpath="${java.class.path};${basedir};${basedir}/.."
+     dir="../enumerated/"
+     failonerror="true"
+     fork="true"/>
+  </target>
+
+  <target name="RoShamBo4">
+    <java
+     classname="enumerated.RoShamBo4"
+     classpath="${java.class.path};${basedir};${basedir}/.."
+     dir="../enumerated/"
+     failonerror="true"
+     fork="true"/>
+  </target>
+
+  <target name="RoShamBo5">
+    <java
+     classname="enumerated.RoShamBo5"
+     classpath="${java.class.path};${basedir};${basedir}/.."
+     dir="../enumerated/"
+     failonerror="true"
+     fork="true"/>
+  </target>
+
+  <target name="RoShamBo6">
+    <java
+     classname="enumerated.RoShamBo6"
+     classpath="${java.class.path};${basedir};${basedir}/.."
+     dir="../enumerated/"
+     failonerror="true"
+     fork="true"/>
+  </target>
+
+  <target name="SecurityCategory">
+    <java
+     classname="SecurityCategory"
+     classpath="${java.class.path};${basedir};${basedir}/.."
+     dir="../enumerated/"
+     failonerror="true"
+     fork="true"/>
+  </target>
+
+  <target name="SpaceShip">
+    <java
+     classname="SpaceShip"
+     classpath="${java.class.path};${basedir};${basedir}/.."
+     dir="../enumerated/"
+     failonerror="true"
+     fork="true"/>
+  </target>
+
+  <target name="TrafficLight">
+    <java
+     classname="TrafficLight"
+     classpath="${java.class.path};${basedir};${basedir}/.."
+     dir="../enumerated/"
+     failonerror="true"
+     fork="true"/>
+  </target>
+
+  <target name="UpcastEnum">
+    <java
+     classname="UpcastEnum"
+     classpath="${java.class.path};${basedir};${basedir}/.."
+     dir="../enumerated/"
+     failonerror="true"
+     fork="true"/>
+  </target>
+
+  <target name="VendingMachine">
+    <java
+     classname="enumerated.VendingMachine"
+     classpath="${java.class.path};${basedir};${basedir}/.."
+     dir="../enumerated/"
      failonerror="true"
      fork="true">
-      <arg line='JGrep.java "\\b[Ssct]\\w+"'/>
-
+      <arg line="VendingMachineInput.txt"/>
     </java>
   </target>
 
-  <target name="Receipt">
+  <target name="EnumImplementation">
     <java
-     classname="Receipt"
+     classname="enumerated.cartoons.EnumImplementation"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../enumerated/cartoons/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="ReFlags">
+  <target name="Meal">
     <java
-     classname="ReFlags"
+     classname="enumerated.menu.Meal"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../enumerated/menu/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Replacing">
+  <target name="Meal2">
     <java
-     classname="Replacing"
+     classname="enumerated.menu.Meal2"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../enumerated/menu/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="ReplacingStringTokenizer">
+  <target name="TypeOfFood">
     <java
-     classname="ReplacingStringTokenizer"
+     classname="enumerated.menu.TypeOfFood"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../enumerated/menu/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Resetting">
-    <java
-     classname="Resetting"
-     classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
-     failonerror="true"
-     fork="true"/>
-  </target>
-
-  <target name="Rudolph">
-    <java
-     classname="Rudolph"
-     classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
-     failonerror="true"
-     fork="true"/>
-  </target>
-
-  <target name="ScannerDelimiter">
-    <java
-     classname="ScannerDelimiter"
-     classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
-     failonerror="true"
-     fork="true"/>
-  </target>
-
-  <target name="SimpleFormat">
-    <java
-     classname="SimpleFormat"
-     classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
-     failonerror="true"
-     fork="true"/>
-  </target>
-
-  <target name="SimpleRead">
-    <java
-     classname="SimpleRead"
-     classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
-     failonerror="true"
-     fork="true"/>
-  </target>
-
-  <target name="SplitDemo">
-    <java
-     classname="SplitDemo"
-     classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
-     failonerror="true"
-     fork="true"/>
-  </target>
-
-  <target name="Splitting">
-    <java
-     classname="Splitting"
-     classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
-     failonerror="true"
-     fork="true"/>
-  </target>
-
-  <target name="StartEnd">
-    <java
-     classname="StartEnd"
-     classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
-     failonerror="true"
-     fork="true"/>
-  </target>
-
-  <target name="TestRegularExpression">
-    <java
-     classname="TestRegularExpression"
-     classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
-     failonerror="true"
-     fork="true">
-      <arg
-       line='abcabcabcdefabc "abc+" "(abc)+" "(abc){2,}" '/>
-
-    </java>
-  </target>
-
-  <target name="TheReplacements">
-    <java
-     classname="TheReplacements"
-     classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
-     failonerror="true"
-     fork="true"/>
-  </target>
-
-  <target name="ThreatAnalyzer">
-    <java
-     classname="ThreatAnalyzer"
-     classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
-     failonerror="true"
-     fork="true"/>
-  </target>
-
-  <target name="Turtle">
-    <java
-     classname="Turtle"
-     classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
-     failonerror="true"
-     fork="true"/>
-  </target>
-
-  <target name="UsingStringBuilder">
-    <java
-     classname="UsingStringBuilder"
-     classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
-     failonerror="true"
-     fork="true"/>
+  <target name="NotClasses">
+    <exec executable="javap">
+      <arg value="-c"/>
+      <arg value="LikeClasses"/>
+    </exec>
   </target>
 
   <target
@@ -320,34 +313,35 @@
    description="Compile and run"
    name="run">
     <touch file="failures"/>
-    <antcall target="ArrayListDisplay"/>
-    <antcall target="BetterRead"/>
-    <antcall target="Concatenation"/>
-    <antcall target="Conversion"/>
-    <antcall target="DatabaseException"/>
-    <antcall target="Finding"/>
-    <antcall target="Groups"/>
-    <antcall target="Immutable"/>
-    <antcall target="IntegerMatch"/>
-    <antcall target="JGrep"/>
-    <antcall target="Receipt"/>
-    <antcall target="ReFlags"/>
-    <antcall target="Replacing"/>
-    <antcall target="ReplacingStringTokenizer"/>
-    <antcall target="Resetting"/>
-    <antcall target="Rudolph"/>
-    <antcall target="ScannerDelimiter"/>
-    <antcall target="SimpleFormat"/>
-    <antcall target="SimpleRead"/>
-    <antcall target="SplitDemo"/>
-    <antcall target="Splitting"/>
-    <antcall target="StartEnd"/>
-    <antcall target="TestRegularExpression"/>
-    <antcall target="TheReplacements"/>
-    <antcall target="ThreatAnalyzer"/>
-    <antcall target="Turtle"/>
-    <antcall target="UsingStringBuilder"/>
-    <echo message="* InfiniteRecursion must be run by hand *"/>
+    <antcall target="BigEnumSet"/>
+    <antcall target="Burrito"/>
+    <antcall target="CarWash"/>
+    <antcall target="ConstantSpecificMethod"/>
+    <antcall target="EnumClass"/>
+    <antcall target="EnumMaps"/>
+    <antcall target="EnumSets"/>
+    <antcall target="NonEnum"/>
+    <antcall target="OverrideConstantSpecific"/>
+    <antcall target="OzWitch"/>
+    <antcall target="PostOffice"/>
+    <antcall target="RandomTest"/>
+    <antcall target="Reflection"/>
+    <antcall target="RoShamBo1"/>
+    <antcall target="RoShamBo2"/>
+    <antcall target="RoShamBo3"/>
+    <antcall target="RoShamBo4"/>
+    <antcall target="RoShamBo5"/>
+    <antcall target="RoShamBo6"/>
+    <antcall target="SecurityCategory"/>
+    <antcall target="SpaceShip"/>
+    <antcall target="TrafficLight"/>
+    <antcall target="UpcastEnum"/>
+    <antcall target="VendingMachine"/>
+    <antcall target="EnumImplementation"/>
+    <antcall target="Meal"/>
+    <antcall target="Meal2"/>
+    <antcall target="TypeOfFood"/>
+    <antcall target="NotClasses"/>
     <delete file="failures"/>
   </target>
 

@@ -3,10 +3,10 @@
 <project
  basedir="."
  default="run"
- name="Thinking in Java, 4th Edition by Bruce Eckel (chapter: strings)">
+ name="Thinking in Java, 4th Edition by Bruce Eckel (chapter: innerclasses)">
 
   <description>
-    build.xml for the source code for the strings chapter of
+    build.xml for the source code for the innerclasses chapter of
     Thinking in Java, 4th Edition by Bruce Eckel
     Source code available at http://www.MindView.net
     See copyright notice in CopyRight.txt
@@ -22,15 +22,6 @@
     <equals arg1="1.5" arg2="${ant.java.version}"/>
   </condition>
 
-  <target name="generics_coffee">
-    <javac
-     classpath="${basedir}/.."
-     srcdir="${basedir}/../generics/coffee/">
-      <compilerarg value="-Xmaxerrs"/>
-      <compilerarg value="10"/>
-    </javac>
-  </target>
-
   <target name="net_mindview_util">
     <javac
      classpath="${basedir}/.."
@@ -41,11 +32,11 @@
   </target>
 
   <target
-   depends="generics_coffee,net_mindview_util"
+   depends="net_mindview_util"
    description="Build all classes in this directory"
    name="build">
     <fail message="J2SE5 required" unless="version1.5"/>
-    <echo message="Building 'strings'"/>
+    <echo message="Building 'innerclasses'"/>
     <javac
      classpath="${basedir}/.."
      debug="true"
@@ -53,264 +44,268 @@
       <compilerarg value="-Xmaxerrs"/>
       <compilerarg value="10"/>
     </javac>
-    <echo message="Build 'strings' succeeded"/>
+    <echo message="Build 'innerclasses' succeeded"/>
   </target>
 
-  <target name="ArrayListDisplay">
+  <target name="AnonymousConstructor">
     <java
-     classname="ArrayListDisplay"
+     classname="AnonymousConstructor"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../innerclasses/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="BetterRead">
+  <target name="BigEgg">
     <java
-     classname="BetterRead"
+     classname="BigEgg"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../innerclasses/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Concatenation">
+  <target name="BigEgg2">
     <java
-     classname="Concatenation"
+     classname="BigEgg2"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../innerclasses/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Conversion">
+  <target name="Callbacks">
     <java
-     classname="Conversion"
+     classname="innerclasses.Callbacks"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../innerclasses/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="DatabaseException">
+  <target name="ClassInInterface">
     <java
-     classname="DatabaseException"
+     classname="ClassInInterface$Test"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../innerclasses/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Finding">
+  <target name="DotNew">
     <java
-     classname="Finding"
+     classname="DotNew"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../innerclasses/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Groups">
+  <target name="DotThis">
     <java
-     classname="Groups"
+     classname="DotThis"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../innerclasses/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Immutable">
+  <target name="Factories">
     <java
-     classname="Immutable"
+     classname="Factories"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../innerclasses/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="InfiniteRecursion">
+  <target name="Games">
     <java
-     classname="InfiniteRecursion"
+     classname="Games"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../innerclasses/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="IntegerMatch">
+  <target name="GreenhouseController">
     <java
-     classname="IntegerMatch"
+     classname="GreenhouseController"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
-     failonerror="true"
-     fork="true"/>
-  </target>
-
-  <target name="JGrep">
-    <java
-     classname="JGrep"
-     classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../innerclasses/"
      failonerror="true"
      fork="true">
-      <arg line='JGrep.java "\\b[Ssct]\\w+"'/>
-
+      <arg line="5000"/>
     </java>
   </target>
 
-  <target name="Receipt">
+  <target name="InheritInner">
     <java
-     classname="Receipt"
+     classname="InheritInner"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../innerclasses/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="ReFlags">
+  <target name="LocalInnerClass">
     <java
-     classname="ReFlags"
+     classname="LocalInnerClass"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../innerclasses/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Replacing">
+  <target name="MultiImplementation">
     <java
-     classname="Replacing"
+     classname="innerclasses.MultiImplementation"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../innerclasses/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="ReplacingStringTokenizer">
+  <target name="MultiInterfaces">
     <java
-     classname="ReplacingStringTokenizer"
+     classname="innerclasses.MultiInterfaces"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../innerclasses/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Resetting">
+  <target name="MultiNestingAccess">
     <java
-     classname="Resetting"
+     classname="MultiNestingAccess"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../innerclasses/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Rudolph">
+  <target name="Parcel1">
     <java
-     classname="Rudolph"
+     classname="Parcel1"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../innerclasses/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="ScannerDelimiter">
+  <target name="Parcel10">
     <java
-     classname="ScannerDelimiter"
+     classname="Parcel10"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../innerclasses/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="SimpleFormat">
+  <target name="Parcel11">
     <java
-     classname="SimpleFormat"
+     classname="Parcel11"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../innerclasses/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="SimpleRead">
+  <target name="Parcel2">
     <java
-     classname="SimpleRead"
+     classname="Parcel2"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../innerclasses/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="SplitDemo">
+  <target name="Parcel3">
     <java
-     classname="SplitDemo"
+     classname="Parcel3"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../innerclasses/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Splitting">
+  <target name="Parcel5">
     <java
-     classname="Splitting"
+     classname="Parcel5"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../innerclasses/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="StartEnd">
+  <target name="Parcel6">
     <java
-     classname="StartEnd"
+     classname="Parcel6"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../innerclasses/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="TestRegularExpression">
+  <target name="Parcel7">
     <java
-     classname="TestRegularExpression"
+     classname="Parcel7"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
-     failonerror="true"
-     fork="true">
-      <arg
-       line='abcabcabcdefabc "abc+" "(abc)+" "(abc){2,}" '/>
-
-    </java>
-  </target>
-
-  <target name="TheReplacements">
-    <java
-     classname="TheReplacements"
-     classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../innerclasses/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="ThreatAnalyzer">
+  <target name="Parcel7b">
     <java
-     classname="ThreatAnalyzer"
+     classname="Parcel7b"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../innerclasses/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="Turtle">
+  <target name="Parcel8">
     <java
-     classname="Turtle"
+     classname="Parcel8"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../innerclasses/"
      failonerror="true"
      fork="true"/>
   </target>
 
-  <target name="UsingStringBuilder">
+  <target name="Parcel9">
     <java
-     classname="UsingStringBuilder"
+     classname="Parcel9"
      classpath="${java.class.path};${basedir};${basedir}/.."
-     dir="../strings/"
+     dir="../innerclasses/"
+     failonerror="true"
+     fork="true"/>
+  </target>
+
+  <target name="Sequence">
+    <java
+     classname="Sequence"
+     classpath="${java.class.path};${basedir};${basedir}/.."
+     dir="../innerclasses/"
+     failonerror="true"
+     fork="true"/>
+  </target>
+
+  <target name="TestBed">
+    <java
+     classname="TestBed$Tester"
+     classpath="${java.class.path};${basedir};${basedir}/.."
+     dir="../innerclasses/"
+     failonerror="true"
+     fork="true"/>
+  </target>
+
+  <target name="TestParcel">
+    <java
+     classname="TestParcel"
+     classpath="${java.class.path};${basedir};${basedir}/.."
+     dir="../innerclasses/"
      failonerror="true"
      fork="true"/>
   </target>
@@ -320,34 +315,35 @@
    description="Compile and run"
    name="run">
     <touch file="failures"/>
-    <antcall target="ArrayListDisplay"/>
-    <antcall target="BetterRead"/>
-    <antcall target="Concatenation"/>
-    <antcall target="Conversion"/>
-    <antcall target="DatabaseException"/>
-    <antcall target="Finding"/>
-    <antcall target="Groups"/>
-    <antcall target="Immutable"/>
-    <antcall target="IntegerMatch"/>
-    <antcall target="JGrep"/>
-    <antcall target="Receipt"/>
-    <antcall target="ReFlags"/>
-    <antcall target="Replacing"/>
-    <antcall target="ReplacingStringTokenizer"/>
-    <antcall target="Resetting"/>
-    <antcall target="Rudolph"/>
-    <antcall target="ScannerDelimiter"/>
-    <antcall target="SimpleFormat"/>
-    <antcall target="SimpleRead"/>
-    <antcall target="SplitDemo"/>
-    <antcall target="Splitting"/>
-    <antcall target="StartEnd"/>
-    <antcall target="TestRegularExpression"/>
-    <antcall target="TheReplacements"/>
-    <antcall target="ThreatAnalyzer"/>
-    <antcall target="Turtle"/>
-    <antcall target="UsingStringBuilder"/>
-    <echo message="* InfiniteRecursion must be run by hand *"/>
+    <antcall target="AnonymousConstructor"/>
+    <antcall target="BigEgg"/>
+    <antcall target="BigEgg2"/>
+    <antcall target="Callbacks"/>
+    <antcall target="ClassInInterface"/>
+    <antcall target="DotNew"/>
+    <antcall target="DotThis"/>
+    <antcall target="Factories"/>
+    <antcall target="Games"/>
+    <antcall target="GreenhouseController"/>
+    <antcall target="InheritInner"/>
+    <antcall target="LocalInnerClass"/>
+    <antcall target="MultiImplementation"/>
+    <antcall target="MultiInterfaces"/>
+    <antcall target="MultiNestingAccess"/>
+    <antcall target="Parcel1"/>
+    <antcall target="Parcel10"/>
+    <antcall target="Parcel11"/>
+    <antcall target="Parcel2"/>
+    <antcall target="Parcel3"/>
+    <antcall target="Parcel5"/>
+    <antcall target="Parcel6"/>
+    <antcall target="Parcel7"/>
+    <antcall target="Parcel7b"/>
+    <antcall target="Parcel8"/>
+    <antcall target="Parcel9"/>
+    <antcall target="Sequence"/>
+    <antcall target="TestBed"/>
+    <antcall target="TestParcel"/>
     <delete file="failures"/>
   </target>
 
