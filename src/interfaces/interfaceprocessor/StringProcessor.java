@@ -1,5 +1,5 @@
 //: interfaces/interfaceprocessor/StringProcessor.java
-package interfaces.interfaceprocessor;
+package interfaceprocessor;
 import java.util.*;
 
 public abstract class StringProcessor implements Processor{

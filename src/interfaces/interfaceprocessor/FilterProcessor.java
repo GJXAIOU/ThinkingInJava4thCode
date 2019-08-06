@@ -1,6 +1,10 @@
 //: interfaces/interfaceprocessor/FilterProcessor.java
-package interfaces.interfaceprocessor;
+package interfaceprocessor;
+import filters.BandPass;
+import filters.LowPass;
+import filters.Waveform;
 import interfaces.filters.*;
+import filters.Filter;
 
 class FilterAdapter implements Processor {
   Filter filter;

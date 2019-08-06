@@ -1,46 +1,59 @@
 //: interfaces/classprocessor/Apply.java
-package interfaces.classprocessor;
+package classprocessor;
+
 import java.util.*;
+
 import static net.mindview.util.Print.*;
 
 class Processor {
-  public String name() {
-    return getClass().getSimpleName();
-  }
-  Object process(Object input) { return input; }
-}	
+    public String name() {
+        // 返回值为：Upcase
+        return getClass().getSimpleName();
+    }
+
+    Object process(Object input) {
+        return input;
+    }
+}
 
 class Upcase extends Processor {
-  String process(Object input) { // Covariant return
-    return ((String)input).toUpperCase();
-  }
+    @Override
+    String process(Object input) {
+        // Covariant return
+        return ((String) input).toUpperCase();
+    }
 }
 
 class Downcase extends Processor {
-  String process(Object input) {
-    return ((String)input).toLowerCase();
-  }
+    @Override
+    String process(Object input) {
+        return ((String) input).toLowerCase();
+    }
 }
 
 class Splitter extends Processor {
-  String process(Object input) {
-    // The split() argument divides a String into pieces:
-    return Arrays.toString(((String)input).split(" "));
-  }
-}	
+    @Override
+    String process(Object input) {
+        // The split() argument divides a String into pieces:
+        return Arrays.toString(((String) input).split(" "));
+    }
+}
 
 public class Apply {
-  public static void process(Processor p, Object s) {
-    print("Using Processor " + p.name());
-    print(p.process(s));
-  }
-  public static String s =
-    "Disagreement with beliefs is by definition incorrect";
-  public static void main(String[] args) {
-    process(new Upcase(), s);
-    process(new Downcase(), s);
-    process(new Splitter(), s);
-  }
+    public static void process(Processor p, Object s) {
+        // 下面的P都是向上转型,第一次值为 Upcase
+        print("Using Processor " + p.name());
+        print(p.process(s));
+    }
+
+    public static String s =
+            "Disagreement with beliefs is by definition incorrect";
+
+    public static void main(String[] args) {
+        process(new Upcase(), s);
+        process(new Downcase(), s);
+        process(new Splitter(), s);
+    }
 } /* Output:
 Using Processor Upcase
 DISAGREEMENT WITH BELIEFS IS BY DEFINITION INCORRECT

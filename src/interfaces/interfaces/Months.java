@@ -2,6 +2,7 @@
 // Using interfaces to create groups of constants.
 package interfaces;
 
+// 现在一般使用枚举的方式
 public interface Months {
   int
     JANUARY = 1, FEBRUARY = 2, MARCH = 3,

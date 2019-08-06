@@ -1,5 +1,8 @@
 //: interfaces/filters/BandPass.java
-package interfaces.filters;
+package filters;
+
+import filters.Filter;
+import filters.Waveform;
 
 public class BandPass extends Filter {
   double lowCutoff, highCutoff;
