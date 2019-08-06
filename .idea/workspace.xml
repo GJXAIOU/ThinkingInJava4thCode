@@ -4,27 +4,11 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6e5f382-2008-48b0-80b8-ada9b6a6c538" name="Default Changelist" comment="第九章：接口代码完整">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ThinkingInJava4Code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ThinkingInJava4Code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Adventure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Adventure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/HorrorShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/HorrorShow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/InterfaceCollision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/interfaces/InterfaceCollision.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Months.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/interfaces/Months.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/RandomWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/RandomWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/classprocessor/Apply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/classprocessor/Apply.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/filters/BandPass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/filters/BandPass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/filters/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/filters/Filter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/filters/HighPass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/interfaces/filters/HighPass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/filters/LowPass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/filters/LowPass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/filters/Waveform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/filters/Waveform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/interfaceprocessor/Apply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/interfaceprocessor/Apply.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/interfaceprocessor/FilterProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/interfaceprocessor/FilterProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/interfaceprocessor/Processor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/interfaceprocessor/Processor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/interfaceprocessor/StringProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/interfaceprocessor/StringProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/music4/Music4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/music4/Music4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/music5/Music5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/music5/Music5.java" afterDir="false" />
+    <list default="true" id="b6e5f382-2008-48b0-80b8-ada9b6a6c538" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Games.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Games.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/RandVals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/RandVals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/RandomDoubles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/RandomDoubles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/nesting/NestingInterfaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/nesting/NestingInterfaces.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,8 +96,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/interfaces/RandomDoubles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            <state relative-caret-position="420">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#160#161#0" expanded="true" />
                 <element signature="e#200#201#0" expanded="true" />
@@ -396,7 +380,7 @@
       <option name="presentableId" value="Default" />
       <updated>1564995381645</updated>
       <workItem from="1564995382981" duration="9369000" />
-      <workItem from="1565052150752" duration="4867000" />
+      <workItem from="1565052150752" duration="5119000" />
     </task>
     <task id="LOCAL-00001" summary="第八章：多态代码补充">
       <created>1565002607685</created>
@@ -433,15 +417,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565007289566</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="第九章：接口代码完整修改">
+      <created>1565057782474</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1565057782474</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14236000" />
+    <option name="totallyTimeSpent" value="14488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17596567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -452,7 +442,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.12843029" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.12843029" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36553237" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -522,7 +512,8 @@
     <MESSAGE value="第八章：多态代码补充" />
     <MESSAGE value="第八章：多态代码补充和源代码Jar包补充" />
     <MESSAGE value="第九章：接口代码补充" />
-    <option name="LAST_COMMIT_MESSAGE" value="第九章：接口代码补充" />
+    <MESSAGE value="第九章：接口代码完整修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="第九章：接口代码完整修改" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -835,8 +826,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/interfaces/RandomDoubles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        <state relative-caret-position="420">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#160#161#0" expanded="true" />
             <element signature="e#200#201#0" expanded="true" />
