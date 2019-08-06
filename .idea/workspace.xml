@@ -5,10 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6e5f382-2008-48b0-80b8-ada9b6a6c538" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Games.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Games.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/RandVals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/RandVals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/RandomDoubles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/RandomDoubles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/nesting/NestingInterfaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/nesting/NestingInterfaces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ThinkingInJava4Code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ThinkingInJava4Code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerclasses/AnonymousConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerclasses/AnonymousConstructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerclasses/ClassInInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerclasses/ClassInInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerclasses/DotNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerclasses/DotNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerclasses/DotThis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerclasses/DotThis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerclasses/Factories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerclasses/Factories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerclasses/MultiInterfaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerclasses/innerclasses/MultiInterfaces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerclasses/MultiNestingAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerclasses/MultiNestingAccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerclasses/Parcel1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerclasses/Parcel1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerclasses/Parcel10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerclasses/Parcel10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerclasses/Parcel11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerclasses/Parcel11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerclasses/Parcel2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerclasses/Parcel2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerclasses/Parcel3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerclasses/Parcel3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerclasses/Parcel5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerclasses/Parcel5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerclasses/Parcel6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerclasses/Parcel6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerclasses/Parcel7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerclasses/Parcel7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerclasses/Parcel7b.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerclasses/Parcel7b.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerclasses/Parcel8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerclasses/Parcel8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerclasses/Parcel9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerclasses/Parcel9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerclasses/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerclasses/Sequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerclasses/TestBed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerclasses/TestBed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerclasses/TestParcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerclasses/TestParcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/innerclasses/Wrapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/innerclasses/Wrapping.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,117 +42,152 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/interfaceprocessor/Apply.java">
+        <entry file="file://$PROJECT_DIR$/src/innerclasses/Parcel9.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/music5/Music5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="101" column="22" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
+            <state relative-caret-position="336">
+              <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#652#653#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/Games.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-462">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-              <folding>
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#521#522#0" expanded="true" />
-                <element signature="e#802#803#0" expanded="true" />
-                <element signature="e#836#837#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/RandomWords.java">
+        <entry file="file://$PROJECT_DIR$/src/innerclasses/AnonymousConstructor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
               <folding>
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#0#668#0" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/interfaces/Months.java">
+        <entry file="file://$PROJECT_DIR$/src/innerclasses/Parcel10.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="126">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
               <folding>
-                <element signature="e#0#304#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/TestRandVals.java">
+        <entry file="file://$PROJECT_DIR$/src/innerclasses/Factories.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+              <folding>
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#797#798#0" expanded="true" />
+                <element signature="e#826#827#0" expanded="true" />
+                <element signature="e#874#875#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+                <element signature="e#885#886#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/innerclasses/Parcel11.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-42">
+              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+              <folding>
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
+                <element signature="e#704#705#0" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+                <element signature="e#820#821#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/innerclasses/ClassInInterface.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding>
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/innerclasses/TestParcel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+              <folding>
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/innerclasses/TestBed.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+              <folding>
+                <element signature="e#140#141#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/innerclasses/MultiNestingAccess.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/RandomDoubles.java">
+        <entry file="file://$PROJECT_DIR$/src/innerclasses/innerclasses/MultiInterfaces.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/RandVals.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/nesting/NestingInterfaces.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-              <folding>
-                <element signature="e#728#729#0" expanded="true" />
-                <element signature="e#762#763#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/interfaceprocessor/StringProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            <state relative-caret-position="483">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -178,6 +233,28 @@
         <option value="$PROJECT_DIR$/src/interfaces/nesting/NestingInterfaces.java" />
         <option value="$PROJECT_DIR$/src/interfaces/Games.java" />
         <option value="$PROJECT_DIR$/src/interfaces/RandomDoubles.java" />
+        <option value="$PROJECT_DIR$/src/innerclasses/Parcel1.java" />
+        <option value="$PROJECT_DIR$/src/innerclasses/Parcel2.java" />
+        <option value="$PROJECT_DIR$/src/innerclasses/Sequence.java" />
+        <option value="$PROJECT_DIR$/src/innerclasses/DotThis.java" />
+        <option value="$PROJECT_DIR$/src/innerclasses/DotNew.java" />
+        <option value="$PROJECT_DIR$/src/innerclasses/Parcel3.java" />
+        <option value="$PROJECT_DIR$/src/innerclasses/TestParcel.java" />
+        <option value="$PROJECT_DIR$/src/innerclasses/Parcel5.java" />
+        <option value="$PROJECT_DIR$/src/innerclasses/Parcel6.java" />
+        <option value="$PROJECT_DIR$/src/innerclasses/Parcel7.java" />
+        <option value="$PROJECT_DIR$/src/innerclasses/Parcel7b.java" />
+        <option value="$PROJECT_DIR$/src/innerclasses/Parcel8.java" />
+        <option value="$PROJECT_DIR$/src/innerclasses/Parcel9.java" />
+        <option value="$PROJECT_DIR$/src/innerclasses/Wrapping.java" />
+        <option value="$PROJECT_DIR$/src/innerclasses/AnonymousConstructor.java" />
+        <option value="$PROJECT_DIR$/src/innerclasses/Parcel10.java" />
+        <option value="$PROJECT_DIR$/src/innerclasses/Factories.java" />
+        <option value="$PROJECT_DIR$/src/innerclasses/Parcel11.java" />
+        <option value="$PROJECT_DIR$/src/innerclasses/ClassInInterface.java" />
+        <option value="$PROJECT_DIR$/src/innerclasses/TestBed.java" />
+        <option value="$PROJECT_DIR$/src/innerclasses/MultiNestingAccess.java" />
+        <option value="$PROJECT_DIR$/src/innerclasses/MultiInterfaces.java" />
       </list>
     </option>
   </component>
@@ -199,83 +276,37 @@
           <expand>
             <path>
               <item name="ThinkingInJava4Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="innerclasses" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ThinkingInJava4Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="filters" type="462c0819:PsiDirectoryNode" />
+              <item name="innerclasses" type="462c0819:PsiDirectoryNode" />
+              <item name="AnonymousConstructor.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="ThinkingInJava4Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaceprocessor" type="462c0819:PsiDirectoryNode" />
+              <item name="innerclasses" type="462c0819:PsiDirectoryNode" />
+              <item name="Callbacks.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="ThinkingInJava4Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaceprocessor" type="462c0819:PsiDirectoryNode" />
-              <item name="FilterProcessor.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="innerclasses" type="462c0819:PsiDirectoryNode" />
+              <item name="Factories.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="ThinkingInJava4Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaceprocessor" type="462c0819:PsiDirectoryNode" />
-              <item name="StringProcessor.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="innerclasses" type="462c0819:PsiDirectoryNode" />
+              <item name="MultiNestingAccess.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="ThinkingInJava4Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="innerclasses" type="462c0819:PsiDirectoryNode" />
+              <item name="Sequence.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="ThinkingInJava4Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="filters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ThinkingInJava4Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="InterfaceCollision.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="ThinkingInJava4Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="music5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ThinkingInJava4Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="music5" type="462c0819:PsiDirectoryNode" />
-              <item name="Music5.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="ThinkingInJava4Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="nesting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ThinkingInJava4Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="nesting" type="462c0819:PsiDirectoryNode" />
-              <item name="NestingInterfaces.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="ThinkingInJava4Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="Adventure.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="ThinkingInJava4Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="Games.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="ThinkingInJava4Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="HorrorShow.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="innerclasses" type="462c0819:PsiDirectoryNode" />
+              <item name="TestParcel.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="ThinkingInJava4Code" type="b2602c69:ProjectViewProjectNode" />
@@ -291,13 +322,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/interfaces" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/innerclasses" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -311,7 +342,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RandomWords">
+  <component name="RunManager" selected="Application.Sequence">
     <configuration name="Apply" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classprocessor.Apply" />
       <module name="ThinkingInJava4Code" />
@@ -321,13 +352,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CovariantReturn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CovariantReturn" />
-      <module name="ThinkingInJava4Code" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -345,8 +369,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RTTI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RTTI" />
+    <configuration name="Parcel1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Parcel1" />
       <module name="ThinkingInJava4Code" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -359,13 +383,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sequence" />
+      <module name="ThinkingInJava4Code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sequence" />
+        <item itemvalue="Application.Parcel1" />
         <item itemvalue="Application.RandomWords" />
         <item itemvalue="Application.Apply" />
         <item itemvalue="Application.Music4" />
-        <item itemvalue="Application.RTTI" />
-        <item itemvalue="Application.CovariantReturn" />
       </list>
     </recent_temporary>
   </component>
@@ -381,6 +412,8 @@
       <updated>1564995381645</updated>
       <workItem from="1564995382981" duration="9369000" />
       <workItem from="1565052150752" duration="5119000" />
+      <workItem from="1565070882761" duration="2461000" />
+      <workItem from="1565076578703" duration="6381000" />
     </task>
     <task id="LOCAL-00001" summary="第八章：多态代码补充">
       <created>1565002607685</created>
@@ -424,16 +457,24 @@
       <option name="project" value="LOCAL" />
       <updated>1565057782474</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="更新readme.md">
+      <created>1565070954625</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1565070954625</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14488000" />
+    <option name="totallyTimeSpent" value="23330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17596567" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18025751" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -442,7 +483,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.12843029" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1273326" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36553237" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -513,7 +554,8 @@
     <MESSAGE value="第八章：多态代码补充和源代码Jar包补充" />
     <MESSAGE value="第九章：接口代码补充" />
     <MESSAGE value="第九章：接口代码完整修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="第九章：接口代码完整修改" />
+    <MESSAGE value="更新readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新readme.md" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -525,48 +567,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/polymorphism/ReferenceCounting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#1459#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/polymorphism/RTTI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#634#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/polymorphism/Transmogrify.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#745#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/polymorphism/CovariantReturn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/polymorphism/PolyConstructors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -746,55 +746,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/interfaceprocessor/StringProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/RandomWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/interfaces/Months.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#304#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/RandVals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/nesting/NestingInterfaces.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-          <folding>
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/interfaces/music5/Music5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="1596">
           <caret line="101" column="22" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -806,14 +760,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/interfaces/Games.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-462">
+        <state relative-caret-position="357">
           <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/RandomWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding>
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/interfaces/Months.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -832,6 +798,324 @@
             <element signature="e#160#161#0" expanded="true" />
             <element signature="e#200#201#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/RandVals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/nesting/NestingInterfaces.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/interfaceprocessor/StringProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerclasses/Parcel1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerclasses/Parcel2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerclasses/Sequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1073">
+          <caret line="56" column="39" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+          <folding>
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerclasses/DotThis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#504#0" expanded="true" />
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerclasses/DotNew.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerclasses/Parcel3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerclasses/Destination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerclasses/Contents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerclasses/Parcel5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="51" lean-forward="true" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+          <folding>
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerclasses/Parcel6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding>
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerclasses/Parcel7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#424#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerclasses/Parcel7b.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerclasses/Parcel8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding>
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerclasses/Wrapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerclasses/Parcel9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerclasses/AnonymousConstructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#668#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerclasses/Parcel10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerclasses/Factories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+          <folding>
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerclasses/Parcel11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerclasses/ClassInInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerclasses/TestParcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding>
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerclasses/TestBed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerclasses/MultiNestingAccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerclasses/innerclasses/MultiInterfaces.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
